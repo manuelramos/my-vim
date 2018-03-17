@@ -88,9 +88,11 @@ map <F2> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 if has('gui_running')
-  set guifont=IBM\ Plex\ Mono\ Medium\ 10
+  "set guifont=IBM\ Plex\ Mono\ Medium\ 10
   set guioptions-=T
   set guioptions-=e
+  set guioptions-=r
+  set guioptions-=L
   set t_Co=256
   set guitablabel=%M\ %t
 endif

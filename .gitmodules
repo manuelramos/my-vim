@@ -31,3 +31,6 @@
 [submodule "bundle/bundle/onedark"]
 	path = bundle/bundle/onedark
 	url = https://github.com/joshdick/onedark.vim.git
+[submodule "bundle/indentLine"]
+	path = bundle/indentLine
+	url = https://github.com/Yggdroot/indentLine.git

@@ -12,7 +12,10 @@ syntax on
 set number
 
 " Set color theme
-colorscheme codedark
+colorscheme srcery
+
+" Set cursor horizontal line
+set cursorline
 
 " Set to auto read when a file is changed from the outside
 set autoread
@@ -94,7 +97,7 @@ let g:indentLine_char = '¦'
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 if has('gui_running')
-  "set guifont=IBM\ Plex\ Mono\ Medium\ 10
+  "set guifont=Monaco:h10 noanti
   set guioptions-=T
   set guioptions-=e
   set guioptions-=r
@@ -102,3 +105,9 @@ if has('gui_running')
   set t_Co=256
   set guitablabel=%M\ %t
 endif
+
+let g:go_highlight_structs = 1 
+let g:go_highlight_methods = 1
+let g:go_highlight_functions = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_build_constraints = 1

@@ -37,3 +37,6 @@
 [submodule "bundle/jellybeans.vim"]
 	path = bundle/jellybeans.vim
 	url = https://github.com/nanotech/jellybeans.vim.git
+[submodule "/home/manu/.vim/bundle/srcery-vim"]
+	path = /home/manu/.vim/bundle/srcery-vim
+	url = https://github.com/srcery-colors/srcery-vim.git

@@ -1,6 +1,12 @@
-call pathogen#infect()
-call pathogen#helptags()
-
+call plug#begin()
+	Plug 'jiangmiao/auto-pairs'
+	Plug 'fatih/vim-go'
+	Plug 'Yggdroot/indentLine'
+	Plug 'scrooloose/nerdtree'
+	Plug 'majutsushi/tagbar'
+	Plug 'vim-airline/vim-airline'
+	Plug 'tomasiser/vim-code-dark'
+call plug#end()
 " Enable filetype plugins 
 filetype plugin on
 filetype indent on

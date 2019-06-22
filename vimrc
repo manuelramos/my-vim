@@ -12,7 +12,7 @@ syntax on
 set number
 
 " Set color theme
-colorscheme srcery
+colorscheme codedark
 
 " Set cursor horizontal line
 set cursorline

@@ -1,6 +1,0 @@
-[submodule "bundle/bundle/vim-polyglot"]
-	path = bundle/bundle/vim-polyglot
-	url = https://github.com/sheerun/vim-polyglot.git
-[submodule "bundle/bundle/onedark"]
-	path = bundle/bundle/onedark
-	url = https://github.com/joshdick/onedark.vim.git

@@ -6,6 +6,9 @@ call plug#begin()
 	Plug 'majutsushi/tagbar'
 	Plug 'vim-airline/vim-airline'
 	Plug 'tomasiser/vim-code-dark'
+	Plug 'pangloss/vim-javascript'
+	Plug 'leafgarland/typescript-vim'
+	Plug 'maxmellon/vim-jsx-pretty'
 call plug#end()
 " Enable filetype plugins 
 filetype plugin on

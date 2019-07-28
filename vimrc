@@ -9,6 +9,7 @@ call plug#begin()
 	Plug 'pangloss/vim-javascript'
 	Plug 'leafgarland/typescript-vim'
 	Plug 'maxmellon/vim-jsx-pretty'
+	Plug 'sainnhe/gruvbox-material'
 call plug#end()
 " Enable filetype plugins 
 filetype plugin on
